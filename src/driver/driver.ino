@@ -22,8 +22,40 @@ void loop() {
   if (Serial.available() > 0 ) {
     inByte = Serial.read();
 
-    Serial.Print("I received: ");
-    Serial.println(inByte, DEC);
+    if (inByte == '1') {
+      digitalWrite(motorLeftForward,HiGH);
+    }
+    
+    if (inByte == '2') {
+      digitalWrite(leftMotorReverse,HIGH);
+    }
+
+    if (inByte == '3') {
+      digitalWrite(leftMotorReverse,LOW);
+    }
+
+        if (inByte == '4') {
+      digitalWrite(motorLeftForward,HiGH);
+    }
+    
+    if (inByte == '5') {
+      digitalWrite(leftMotorReverse,HIGH);
+    }
+
+    if (inByte == '6') {
+      digitalWrite(leftMotorReverse,LOW);
+    }
+
+        if (inByte == '7') {
+      digitalWrite(leftMotorReverse,LOW);
+    }
+
+        if (inByte == '8') {
+      digitalWrite(leftMotorReverse,LOW);
+    }
+    
+    
+
   }
   
 }
