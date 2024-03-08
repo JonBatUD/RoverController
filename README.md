@@ -66,11 +66,11 @@ Define what a key press dose
 Q | Left Motors Forward      | 1
 A | Left Motors Backward     | 2
 Q | release Left motors stop | 3
-A release | Left motors stop | 3
-E | Right motors Forward | 4
-D | Right motors Backward | 5
-E release | Right motors stop | 6
-D release | Right motors stop | 6
+A release | Left motors stop | 4
+E | Right motors Forward | 5
+D | Right motors Backward | 6
+E release | Right motors stop | 7
+D release | Right motors stop | 8
 
 
 
