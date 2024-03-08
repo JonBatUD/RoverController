@@ -19,10 +19,10 @@ ser = serial.Serial(com,115200)
 while True:
     # Turn left right Motors on
     ser.write(b'1')
-    ser.write(b'4')
+    ser.write(b'5')
     time.sleep(3)
 
     # Turn left right Motors off
-    ser.write(b'0')
-    ser.write(b'0')
+    ser.write(b'3')
+    ser.write(b'7')
     time.sleep(1)
