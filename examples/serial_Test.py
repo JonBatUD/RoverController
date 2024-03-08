@@ -10,6 +10,9 @@ import time
 
 
 com = 'COM5'
+### todo connect pi to serial
+#com ='ttysomethingsomethin'
+
 
 ser = serial.Serial(com,115200)
 
