@@ -2,9 +2,10 @@
 
 
 ## Overview
-The purpose of this doc is to lay out how to hack together a remote control for the rover. 
+Hack together a way to contoll A rover. 
 
 ## Flow
+This section discribes how different code files will interact with each other.
 The direction of flow will be from the computer to the motors:
 Computer/Keyboard → RPi/Server → Arduino/MotorController
 
