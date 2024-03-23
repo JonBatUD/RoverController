@@ -12,7 +12,7 @@ unsigned long leftReverseTimer = 0;
 unsigned long rightForwardTimer = 0;
 unsigned long rightReverseTimer = 0;
 
-unsigned long stopAfter = 10;
+unsigned long stopAfter = 100;
 
 void setup() {
   // put your setup code here, to run once:
