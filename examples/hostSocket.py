@@ -7,7 +7,7 @@ Created on Tue Aug 22 12:07:49 2023
 import time 
 import socket
 
-HOST = "127.0.0.1"
+HOST = "192.168.1.143"
 PORT = 5555
 
 with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
@@ -21,4 +21,4 @@ with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
             if not data:
                 break
             print("Got data: {}".format(data))
-            conn.sendall(b'ACK')
+            #conn.sendall(b'ACK')
